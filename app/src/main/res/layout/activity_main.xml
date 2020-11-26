@@ -9,14 +9,14 @@
     android:layout_margin="10dp"
     tools:context=".MainActivity">
 
-    <TextView
+    <EditText
         android:id="@+id/input1"
         android:textSize="18dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="입력"/>
 
-    <TextView
+    <EditText
         android:id="@+id/input2"
         android:textSize="18dp"
         android:layout_width="match_parent"
@@ -24,6 +24,7 @@
         android:hint="입력"/>
 
     <RadioGroup
+        android:id="@+id/group"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
         <RadioButton
@@ -54,6 +55,7 @@
     </RadioGroup>
 
     <Button
+        android:id="@+id/btn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="계산하기"
